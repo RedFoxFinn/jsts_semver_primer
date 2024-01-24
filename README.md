@@ -1,12 +1,10 @@
-# React semantic versioning primer script
+# JS/TS semantic versioning primer script
 
-I built this script to simplify one step of my (and probably someone else's) React application project initialization processes.
+I built this script to simplify one step of my (and probably someone else's) JS/TS application project initialization processes.
 
-Note: Script makes assumption that you have already [initialized react project](https://reactjs.org/docs/create-a-new-react-app.html) AND you're running it in the project directory.
+Note: Script makes assumption that you have already initialized the project AND you're running it in the project directory.
 
-Script does for you what you're hopefully going to do anyway: add semantic versioning into your React app project.
-
-It will probably work with most of the other JS projects too, but I won't give any assurances on that.
+Script does for you what you're hopefully going to do anyway: add semantic versioning into your project.
 
 Basicly script utilizes [this guide](https://dev.to/stijnva/semantic-versioning-in-javascript-projects-made-easy-3h63).
 
@@ -17,7 +15,6 @@ Hopefully it's useful to others too.
 Script relies on couple of CLI tools:
 
 - printf
-- yarn
 - np[mx]
 - sed
 
